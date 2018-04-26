@@ -1,3 +1,24 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h4 {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    color: black;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+}
+
+h5 {
+    color: grey;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    font-size: 22px;
+}
+
 .container{
     margin-bottom: 20px;
 }
@@ -11,3 +32,123 @@ h2{
     height: 60px;
 }
 
+.header {
+    width: 100%;
+    overflow: hidden;
+    height: 550px;
+}
+
+.header .intro-img {
+    width: 100%;
+}
+
+.intro-text {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.intro-text span {
+    font-weight: 450;
+    font-size: 26px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.items {
+    background-image: url('../img/kampbanner.jpg');
+    width: 100%;
+    height: 550px;
+}
+
+.info-container {
+    background-image: url('../img/clubhuis.jpg')
+}
+
+.info-card {
+    margin: auto;
+    background-color: white;
+    opacity: 0.7;
+    width: 200px;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.info-card span {
+    font-size: 12px;
+    display:block;
+    width:100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.practical-info {
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: lightgray;
+    margin-left: 20px;
+    padding-left: 20px;
+    height: 360px;
+}
+
+.right {
+    display: flex;
+}
+
+.right i {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.button button {
+    padding: 5px 10px 5px 10px;
+    background: orange;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+    overflow: hidden;
+   }
+  }
+  @media only screen and (max-width: 760px) {
+    .header {
+        width: 100%;
+    overflow: hidden;
+   }
+  }
+  @media (min-width:320px) {
+    .header {
+        width: 100%;
+    overflow: hidden;
+   }
+  }
+  @media (min-width:481px) {
+    .header {
+        width: 100%;
+    overflow: hidden;
+   }
+  }
+  @media (min-width:641px) {
+    .header {
+        width: 100%;
+    overflow: hidden;
+   }
+  }
+  @media (min-width:961px) {
+    
+  }
+  @media (min-width:1025px) {
+    
+  }
+  @media (min-width:1281px) {
+    
+  }

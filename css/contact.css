@@ -1,0 +1,138 @@
+.center-title {
+  text-align: center;
+}
+.contact {
+  height: 550px;
+  margin-bottom: 50px;
+}
+.contact iframe {
+  margin: 0 auto;
+  padding-top: 35px;
+  display: flex;
+  width: 80%;
+  height: 100%;
+}
+.contact-persons img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.contact-persons {
+  background: white;
+  padding: 15px 14px;
+  display: flex;
+  padding-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 50%;
+  height: 75%;
+  opacity: 0.8;
+}
+.contact-persons img {
+  float: left;
+}
+.side {
+  padding-top: 35px;
+  text-align: right;
+}
+.demo-bg{
+  background: #9eb4c9;
+  background: url(../img/boats.jpg) no-repeat center center;
+  margin-top: 60px;
+}
+.business-hours {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: #222;
+  padding: 40px 14px;
+  margin-top: -15px;
+  position: relative;
+}
+.business-hours:before{
+  content: '';
+  width: 23px;
+  height: 23px;
+  background: #111;
+  position: absolute;
+  top: 5px;
+  left: -12px;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+.business-hours .title {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: #BBB;
+  text-transform: uppercase;
+  padding-left: 5px;
+  border-left: 4px solid #ffac0c;
+}
+.business-hours li {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #888;
+  line-height: 30px;
+  border-bottom: 1px solid #333;
+}
+.business-hours li:last-child {
+  border-bottom: none;
+}
+.business-hours .opening-hours li.today {
+  color: #ffac0c;
+}
+.title {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 5px;
+  border-left: 4px solid #ffac0c;
+}
+.contact-persons ul {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.contact-persons li {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:350;
+  font-size:16px;
+  color: black;
+  line-height: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .contact-persons {
+      width: 100%;
+ }
+}
+@media only screen and (max-width: 760px) {
+  .contact-persons {
+      width: 100%;
+ }
+}
+@media (min-width:320px) {
+  .contact-persons {
+      width: 100%;
+ }
+}
+@media (min-width:481px) {
+  .contact-persons {
+      width: 100%;
+ }
+}
+@media (min-width:641px) {
+  .contact-persons {
+      width: 100%;
+ }
+}
+@media (min-width:961px) {
+  .contact-persons {
+      width: 60%;
+ }
+}
+@media (min-width:1025px) {
+  .contact-persons {
+      width: 60%;
+ }
+}
+@media (min-width:1281px) {
+  .contact-persons {
+      width: 60%;
+ }
+}
