@@ -118,8 +118,20 @@ h2{
     text-transform: uppercase;
 }
 
-/* Ipad portait */
-@media only screen and (max-width: 768px) {
+.price-info {
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    background-color: light
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+    overflow: hidden;
+   }
+  }
+  @media only screen and (max-width: 760px) {
     .header {
         height: 450px;
     }
